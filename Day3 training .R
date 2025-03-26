@@ -1,7 +1,7 @@
 library(tidyverse)
 #load data
 participants_data<-read.csv("participants_data.csv")
-
+#Ghana is important 
 
 #renam the data sett
 participants_data<-dplyr::rename(participants_data,commute=km_home_to_zef)
